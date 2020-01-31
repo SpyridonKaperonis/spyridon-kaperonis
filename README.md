@@ -1,5 +1,6 @@
 # Spyridon Kaperonis
 
+
 ## About
 This repo is made to compose my about-me website for 44-563-02. I use web creation and designing techniques that we learn across this course.
 
