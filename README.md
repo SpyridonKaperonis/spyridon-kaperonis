@@ -3,7 +3,7 @@
 ## About
 This repo is made to compose my about-me website for 44-563-02. I use web creation and designing techniques that we learn across this course.
 
-## Tools that I use
+## Recommended tools
  
  The most basic tool that I use is my portable computer. 
  
@@ -11,3 +11,11 @@ This repo is made to compose my about-me website for 44-563-02. I use web creati
  1. GitHub
  1. VisualStudio
  
+
+## Recommended resources
+
+- A good source for Web Development code is [W3SCHOOLS](https://www.w3schools.com/)
+
+## Contributors
+
+- 
