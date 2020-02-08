@@ -1,0 +1,13 @@
+*{
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+    font-family: 'Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: antiquewhite;
+}
