@@ -1,0 +1,172 @@
+*{
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+    font-family: 'Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav ul,
+.container-nice-letters
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-down{
+    margin-bottom: 1vw;
+    margin-top: 90vw;
+}
+
+nav ul{
+    position: relative;
+}
+
+span.name,
+span.mlname{
+    color: darkred;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.container{
+    padding: 0 100px 0 100px;
+}
+
+.profile-image{
+    margin-left: 13vw;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+span:hover{
+    color: rgb(226, 83, 83);
+    transition: all .5s;
+}
+
+.text a::before{
+    content: ' ';
+    background-color: khaki;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    transition: .5s;
+}
+.text a:hover::before{
+    height: 100%;
+}
+
+.text a{
+    padding: 12px 25px;
+    background-color: none;
+    border: 3px solid darkred;
+    color: darkred;
+    font-size: bold .8rem;   
+    letter-spacing: 2px;
+    position: relative;
+    top: 10vw;
+    margin-left: 42vw;
+    overflow: hidden;
+    transition: .5s;
+    display: inline-block;
+
+}
+.text h1{
+    font-size: 3rem;
+    color: whitesmoke;
+    cursor: context-menu;
+}
+
+span{
+    margin-left: 10px;
+}
+
+span.m-l{
+    margin-left: -5px;
+}
+
+.text span{
+    display: inline-block;
+}
+
+div.text{
+    margin-left: 90px;
+
+}
+
+.aboutme{
+    height: 100vh;
+    margin-top: 50px;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%);
+
+}
+
+li{
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 10vw;
+}
+
+.container h1{
+    font-size: 10rem;
+    z-index: 0;
+    margin-top: 10vw;
+    opacity: 0.1;
+}
+
+.about-me-info{
+    max-width: 900px;
+    background-color: rgb(104, 212, 212);
+    box-shadow: 0 0 1.2rem rgba(0, 0 , 0, .25);
+    padding: 50px;
+    position: relative;
+    margin-top: 10vw;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.video{
+    margin-top: 5vw;
+    margin-left: 21vw;
+}
+
+div.github{
+    margin-top: 7vw;
+    margin-left: 37vw;
+}
+
+
+
+
+
+
+
+
