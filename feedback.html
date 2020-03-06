@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, initial-scale=1.0 ">
         <meta name="SpyridonKaperonis" content="SpyridonKaperonis">
-        <meta name="P2 Style site" content="This is my developer page.">
+        <meta name="Feedback" content="This is my developer page.">
 
         <link href="css/feedback.css" rel="stylesheet">
+        <script src="main.js"></script>
     </head>
     <body>
 
@@ -15,17 +16,20 @@
         </div>
         <div class="feedback">
             <form class="design">
-                <input type="text" name="feedback" placeholder="From 1 - 10">
+                <input id = "text" type="text" name="feedback" placeholder="From 1 - 10" maxlength="10">
                 
-                
-                <input  type="submit">
+                <button id="btn1" onclick = "fn()">Submit</button>
+
+                <p id="output" ></p>
             </form>
             <form class="organization">
 
             </form>
         </div>
+        
+        
         <footer class="footer-down">
-            <hr>
+            <hr></hr>
             <p>2020 Copyright. Created by Spyridon Kaperonis. All rights Reserved.</p>
           </footer>
     </body>
