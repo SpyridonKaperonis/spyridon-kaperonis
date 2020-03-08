@@ -1,16 +1,21 @@
 var long, lat, sum;
 
-document.getElementById('btn1').addEventListener('click', function(){
-    long = parseInt(document.getElementById('long').value);
-    lat = parseInt(document.getElementById('lat').value);
 
-    sum = long + lat;
+const add = (x, y) => {return x+y}
+
+const addValues = async (event) => {
+    try{
+    document.getElementById('output').innerHTML = '';
+    const regex = /[^a-zA-Z_]/g;
+    const first = parseInt(document.getElementById('lat').value);
+    const second = parseInt(document.getElementById('long').value);
+    const ans = `Your sum is ${add(first, second)}.`;
+    document.getElementById('output').innerHTML = ans;
+    }catch(error){
+        console.error(error)
+    }
+}
 
 
-    localStorage.setItem("addition", sum);
-
-    document.getElementById('output').innerHTML = localStorage.getItem("addition");
-
-});
 
 
