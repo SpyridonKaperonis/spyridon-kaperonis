@@ -21,43 +21,36 @@
         </div>
         <div class="feedback">
             <form class="design">
-                <button id="start" onclick="laugh()">Start</button>
+                <button id="start">Start</button>
                 <br>
 
-                <label>Grade:</label>
-                <input id = "text" type="number" name="feedback" placeholder="From 1 - 10" maxlength="10">
-                <button id="btn1" onclick = "fn()">Submit</button>
-
-                <p id="output" ></p>
-            </form>
+                <label>Longtitude: </label>
+                <input id = "long" type="text" name="longtitude" placeholder="e.g 39.0742" maxlength="10">
+                <label>Latitude: </label>
+                <input id="lat" type="text" name="latitude" placeholder="e.g 21.8243" maxlength="10">
+                <button id="btn1">Submit</button>
+                <br>
             
-
-
+                <div>
+                    <p id="output" ></p>
+                </div>
+                
             </form>
         </div>
+            
+    
 
         <div id="map"></div>
         
         
         <footer class="footer-down">
-            <hr></hr>
+            
             <p>2020 Copyright. Created by Spyridon Kaperonis. All rights Reserved.</p>
           </footer>
 
-          <script src="main.js"></script>
-          <script>
-              var map;
-            function initMap(){
-                  map = new google.maps.Map(document.getElementById('map'), {
-                    center: {lat: -34.397, lng: 150.644},
-                 zoom: 8
-                 });
-}
-          </script>
-          <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9IdsBRaieDgTfNAg4ciKlPIRqCPC9ixI&callback=initMap">
-            </script>
 
+          <script src="JavaScript/main.js"></script>
+          
 
     </body>
 </html>
