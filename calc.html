@@ -15,27 +15,39 @@
         </div>
 
         <div class="description">
-            <h2>This is a laugh calculator. By clicking the start button there will be a joke for you. Depending on 
-                how much you laugh you will grade accordingly.
+            <h2>Calculator
             </h2>
         </div>
-        <div class="feedback">
-            <form class="design">
-                <button id="start">Start</button>
+        <div class="calculator">
+
+
+                
+                <br>
+                <select id="operation" name = "operation"size="4" style="margin: 10px; width: 165px; height: 170;">
+                    <option value="add">Addition</option>
+                    <option value="subtraction">Subtraction</option>
+                    <option value="multiplication">Multiplication</option>
+                    <option value="division">Division</option>
+                </select>
+            
                 <br>
 
-                <label>Longtitude: </label>
-                <input id = "long" type="text" name="longtitude" placeholder="e.g 39.0742" maxlength="10">
-                <label>Latitude: </label>
-                <input id="lat" type="text" name="latitude" placeholder="e.g 21.8243" maxlength="10">
+                <label>Number: </label>
+                <input id ="first" type="text" maxlength="10">
+                <label>Number: </label>
+                <input id="second" type="text" maxlength="10">
+               
                 <button id="btn1">Submit</button>
+
                 <br>
+               
             
-                <div>
-                    <p id="output" ></p>
-                </div>
                 
-            </form>
+           
+            <div>
+               
+                <p id="output"  ></p>
+            </div>
         </div>
             
     
@@ -50,6 +62,7 @@
 
 
           <script src="JavaScript/main.js"></script>
+         
           
 
     </body>
