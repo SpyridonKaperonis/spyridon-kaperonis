@@ -4,10 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width = device-width, initial-scale=1.0 ">
         <meta name="SpyridonKaperonis" content="SpyridonKaperonis">
-        <meta name="Laugh" content="This is my developer page.">
-
+        <meta name="Calculator" content="This is my developer page.">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="css/calc.css" rel="stylesheet">
-        
+        <title>Calculator</title>
     </head>
     <body>
         <div class="text">
@@ -18,7 +19,7 @@
             <h2>Calculator
             </h2>
         </div>
-        <div class="calculator">
+        <div class="col-sm-4">
 
 
                 
@@ -32,16 +33,17 @@
             
                 <br>
 
-                <label>Number: </label>
+                <label>Number1: </label>
                 <input id ="first" type="text" maxlength="10">
-                <label>Number: </label>
+                <br>
+                <label>Number2: </label>
                 <input id="second" type="text" maxlength="10">
-               
+                <br>
                 <button id="btn1">Submit</button>
 
                 <br>
-               
-            
+
+                <table id="table"></table>
                 
            
             <div>

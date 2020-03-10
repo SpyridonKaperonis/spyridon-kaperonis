@@ -12,10 +12,105 @@ html{
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: rgb(8, 126, 233);
 }
 
 #map{
     height: 400px;
     width: 100%;
+}
+.container{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+}
+
+.col-sm-4{
+    padding: auto;
+    margin: auto;
+    width: 10em;
+    text-align: center  ;
+    border-radius: 20px;
+    
+}
+
+#first{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px;
+}
+#second{
+    text-align: center;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px;
+    
+}
+#operation{
+    border-radius: 5px;
+}
+#btn1{
+    width: 10em;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.text a{
+    text-align: center;
+    
+    padding: 12px 25px;
+    background-color: none;
+    border: 3px solid darkred;
+    color: darkred;
+    font-size: bold .8rem;   
+    letter-spacing: 2px;
+    position: relative;
+    top: 10vw;
+    margin-left: 42vw;
+    overflow: hidden;
+    transition: .5s;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    
+    position: relative;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%);
+
+}
+
+.text a::before{
+    
+    content: ' ';
+    background-color: khaki;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    z-index: -1;
+    transition: .5s;
+}
+
+.text a:hover::before{
+    height: 100%;
+}
+
+span:hover{
+    color: rgb(226, 83, 83);
+    transition: all .5s;
+}
+
+#output{
+    color: white;
 }

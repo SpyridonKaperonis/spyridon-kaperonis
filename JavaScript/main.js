@@ -3,7 +3,7 @@ const addT = (x, y) => {return x+y}
 const substractT = (x,y) => {return x-y}
 const mult = (x,y) => {return x*y}
 const division = (x,y)=>{return x/y}
-
+var count =0;
 
 
 const calculate = async (event) => {
@@ -30,14 +30,21 @@ const calculate = async (event) => {
     }
     
     
- 
+ count ++;
 }
+
+if(typeof(Storage) !== "undefined"){
+    localStorage.setItem(count, document.getElementById('output').value);
+    document.getElementById('table').innerHTML = localStorage.getItem('1');
+}else{
+
+}
+
 
 
 document.addEventListener('click', event => {
     if (event.target && event.target.id === 'btn1') { calculate(event) }
   })
-
 
 
 
