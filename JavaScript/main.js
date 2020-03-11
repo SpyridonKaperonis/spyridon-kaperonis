@@ -1,6 +1,6 @@
 
-const addT = (x, y) => {return x+y}
-const substractT = (x,y) => {return x-y}
+const addT = function (x, y) {return x+y};
+const substractT = function (x,y) => {return x-y}
 const mult = (x,y) => {return x*y}
 const division = (x,y)=>{return x/y}
 var count =0;
